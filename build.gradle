@@ -1,0 +1,22 @@
+plugins {
+  id 'version-catalog'
+  id 'maven-publish'
+}
+
+catalog {
+    // declare the aliases, bundles and versions in this block
+    versionCatalog {
+        from files('libs.versions.toml')
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.rwsbillyang'
+            artifactId = 'version-catalog'
+            version = '1.0.0'
+            from components.versionCatalog
+        }
+    }
+}
