@@ -21,14 +21,17 @@ More info: [Importing a published catalog](https://docs.gradle.org/current/userg
 
 ## 2. Using catalog
 
-In build.gradle:
+build.gradle likes the following:
 ```gradle
 dependencies {
-    implementation libs.kotlin.stdlib.jdk8
-    implementation libs.kotlin.serialization.json
+    //implementation libs.kotlin.stdlib.jdk8
+    //implementation libs.kotlin.serialization.json
     //...
-    implementation libs.rule.runtime
-    //implementation project(":ktorKit")
-    implementation libs.ktorKit
+    //implementation libs.rule.runtime
+    //implementation libs.ktorKit
 }
 ```
+
+## 3. publishToMavenLocal
+
+`gradle publishToMavenLocal` after git clone the repo.
