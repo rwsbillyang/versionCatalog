@@ -15,7 +15,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.rwsbillyang'
             artifactId = 'version-catalog'
-            version = '1.0.1'
+            version = '1.0.2'
             from components.versionCatalog
         }
     }

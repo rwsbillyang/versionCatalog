@@ -47,6 +47,7 @@ spiderVersion = "2.0.0"
 fileProxyVersion = "1.1.0"
 rwsLibVersion = "1.1.0"
 composerouterVersion = "1.3.1"
+composeuiVersion = "1.0.0"
 
 [libraries]
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlinVersion" }
@@ -135,7 +136,7 @@ androidx-datastore-preferences = { module = "androidx.datastore:datastore-prefer
  
 composePrefs = { module = "com.github.JamalMulla:ComposePrefs3", version = "1.0.4"}
 composerouter = { module = "com.github.rwsbillyang:composerouter", version.ref = "composerouterVersion"}
-
+composeui = { module = "com.github.rwsbillyang:composeui", version.ref = "composeuiVersion"}
 
 ##### Misc ##### 
 caffeine = { module = "com.github.ben-manes.caffeine:caffeine", version.ref = "caffeineVersion" }
