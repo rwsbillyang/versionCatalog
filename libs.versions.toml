@@ -48,6 +48,7 @@ fileProxyVersion = "1.1.0"
 rwsLibVersion = "1.1.0"
 composerouterVersion = "1.3.1"
 composeuiVersion = "1.0.0"
+cronVersion = "1.0.0"
 
 [libraries]
 kotlin-stdlib-jdk8 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk8", version.ref = "kotlinVersion" }
@@ -158,7 +159,7 @@ ktorKit =  { module = "com.github.rwsbillyang:ktorKit", version.ref = "ktorKitVe
 yinyang =  { module = "com.github.rwsbillyang:yinyang", version.ref = "yinyangVersion"}
 rule-runtime =  { module = "com.github.rwsbillyang:rule-runtime", version.ref = "ruleRuntimeVersion"}
 material = { group = "com.google.android.material", name = "material", version = "1.12.0" }
-
+cron =  { module = "com.github.rwsbillyang:cron", version.ref = "cronVersion"}
 
 [bundles]
 androidx-compose = ["androidx-activity-compose", "androidx-compose-ui", "androidx-compose-runtime-livedata"]
